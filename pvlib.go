@@ -31,6 +31,15 @@ const (
 	Like        CompareOperator = "like"
 )
 
+const (
+	SellTransaction     = "SELL"
+	BuyTransaction      = "BUY"
+	DividendTransaction = "DIVIDEND"
+	SplitTransaction    = "SPLIT"
+	DepositTransaction  = "DEPOSIT"
+	WithdrawTransaction = "WITHDRAW"
+)
+
 type SearchCriteria struct {
 	Name        *string
 	StringValue *string
