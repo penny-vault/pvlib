@@ -63,3 +63,9 @@ func (p *Portfolio) UploadTransactions(transactions []*Transaction) error {
 	log.Info().Msg("not implemented")
 	return errors.New("not implemented")
 }
+
+// DownloadOrders retrieves the list of orders that should be executed on the account
+func (p *Portfolio) DownloadOrders(transactions []*Transaction) error {
+	log.Info().Msg("not implemented")
+	return errors.New("not implemented")
+}
