@@ -56,12 +56,9 @@ jobs:
       uses: actions/setup-go@v3
       with:
         go-version-file: 'go.mod'
-    
-    - name: Build Package
-      uses: magefile/mage-action@v2
-      with:
-        version: latest
-        args: build
 
+    - name: Run build
+      run: go build .
+  
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
