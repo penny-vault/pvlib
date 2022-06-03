@@ -38,6 +38,7 @@ const (
 	SplitTransaction    = "SPLIT"
 	DepositTransaction  = "DEPOSIT"
 	WithdrawTransaction = "WITHDRAW"
+	InterestTransaction = "INTEREST"
 )
 
 type SearchCriteria struct {
