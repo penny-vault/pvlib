@@ -2,7 +2,7 @@ module github.com/penny-vault/pvlib
 
 go 1.18
 
-require github.com/rs/zerolog v1.29.1
+require github.com/rs/zerolog v1.30.0
 
 require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
